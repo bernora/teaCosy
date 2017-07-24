@@ -144,3 +144,12 @@ h3 {
 }
 
 /* Contact info and footer styling */
+
+.contactInfo {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
