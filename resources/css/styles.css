@@ -1,6 +1,5 @@
 
 
-/* Menu bar styling*/
 body {
   background-color: black;
   font-family: Helvetica;
@@ -13,6 +12,22 @@ body {
 a {
   color: inherit;
 }
+
+.titleContainer {
+  background-color: black;
+  width: 100%;
+  color: inherit;
+}
+
+.mainTitle {
+  margin: 20px 0;
+}
+
+.secondaryTitle {
+  margin: 20px 0;
+}
+
+/* Menu bar styling*/
 
 .menuBar {
   width: auto;
@@ -51,7 +66,7 @@ a {
 /*Styling for Hero module */
 
 .heroContainer {
-  margin-top: 70px;
+  margin: 70px auto;
   width: 1200px;
   height: 700px;
   display: flex;
@@ -60,8 +75,37 @@ a {
   background-image: url("../img-mission-background.jpg");
 }
 
-.heroTitle {
-  background-color: black;
+/*Stying for Featured Tea Section*/
+
+.featuredContainer {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredGrid {
   width: 100%;
-  color: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredItem {
+  padding: 10px;
+}
+
+.featuredItemTitle {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.featuredItem img {
+  height: 200px;
+  width: 300px;
 }
