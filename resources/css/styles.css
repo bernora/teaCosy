@@ -1,0 +1,48 @@
+
+
+/* Menu bar styling*/
+body {
+  margin: 0 auto;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+.menuBar {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.menuBarLogo {
+  display: flex;
+  height: 50px;
+}
+
+.menuBarNav {
+  display: flex;
+  flex-direction: row;
+  min-width: 50%;
+  margin-left: auto;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.menuBarNavLink {
+  padding: 10px 20px;
+}
